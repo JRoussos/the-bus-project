@@ -20,6 +20,18 @@ The whole project is backed up by [Firebase](https://firebase.google.com/), I us
 
 I also used [Redux](https://redux.js.org/) and [React-Redux](https://react-redux.js.org/) to manage state, [react-redux-firestore](https://react-redux-firebase.com/) to connect with Firestore, [date-fns](https://date-fns.org/) for for manipulating dates and time. For the maps I used [Leaflet](https://react-leaflet.js.org/) and the [mapbox direction api](https://docs.mapbox.com/help/glossary/directions-api/) for showing the routes on the map.  
 
+Due to the nature of the app it is neccessery to have available at least two languages (Greek for the locals and English for foreigners). So I used [react-i18next](https://react.i18next.com/) which is based on [i18next](http://i18next.com/). 
+
+## Future of the bus project
+
+The idea is to eliminate all possible annoyance for the end user (and right now there are many) and make the bus taking as ease as it gets. So in the future I want to implement location tracking for every bus in the street, in this way the times will be more accurate and the wait in the bus stop not knowing if the bus have passed already or not will be over. 
+
+To do that and also keep the cost to minimum the GSM/GPS solution is out of the picture. After some research, and to my surprise, I found out that on the island there is a LoRa network setup that covers the whole island (who would have thought, right?). So my plan is to use LoRa for bus tracking, I don't know if it's feasible at all but this is the idea thus far.
+
+
+![](ttn_syros.png)
+*Image from [ttnmapper.org](https://ttnmapper.org/) showcasing the network coverage on the island*
+
 ## Licence
 
 Copyright (c) 2020 John Roussos
