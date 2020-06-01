@@ -1,16 +1,18 @@
 ## What is this project about
 
-This project was created in order to provide a website for the bus company of the island of Syros in Greece.
+I'm making this project in order to challenge myself as a junior developer and in the process to learn new things and technologies. The inspiration for this was the almost unusable website that the bus company in Syros(Syros is an island in Greece and also my place of origin) had already so I wanted to make something modern and functional for them. 
 
 The purpose of this webapp is to inform the potential clients of the app about the routes, the times, the rates and all other kind on info concerning the every-day transportation on the island.
 
 The app has a mobile first approach. It is designed as a progressive web app (pwa) to still be funcional offline or in cases when the internet connection is poor.
 
+[Progress made so far can been seen here](https://sw-react-test.firebaseapp.com/)
+
 ## Template
 
 I used a free react template from [Creative Tim](https://demos.creative-tim.com/black-dashboard-react/#/dashboard) in order to save time and not worry with designing the app. From there I change everything that I didn't needed, build the rest of the site and implement all of it's features.
 
-The template is build over [Bootstrap 4](http://getbootstrap.com/), [Reacstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)). It comes with two versions, Dark Mode and Ligth Mode. And from the external packages that the templates offers I only keep the [Perfect Scrollbar](http://utatti.github.io/perfect-scrollbar/).
+The template is build over [Bootstrap 4](http://getbootstrap.com/), [Reacstrap](https://reactstrap.github.io/) and [React](https://reactjs.org/) ([create-react-app](https://github.com/facebook/create-react-app)). It comes with two versions, Dark Mode and Ligth Mode. 
 
 ## Libraries used
 

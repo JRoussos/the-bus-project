@@ -1,0 +1,21 @@
+.carousel-item > img { 
+    width: 100%;
+    height: -webkit-fill-available;
+    /* height: 100vh; */
+    /* height: -moz-available;      */
+    object-fit: cover;
+}
+
+@-moz-document url-prefix() {
+    .carousel-item > img {
+        height: 100vh;
+    }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    cursor:pointer;
+}
+
+.carousel {
+    height: 500px;
+}

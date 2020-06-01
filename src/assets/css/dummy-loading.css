@@ -1,0 +1,43 @@
+.my-slider{
+    position: relative;
+    margin: 0 10px;
+    border-radius: 2px;
+    height:15px;
+    overflow-x: hidden;
+}
+  
+.my-line{
+    position:absolute;
+    opacity: 0.4;
+    background:#6c757d;
+    width:150%;
+    height:15px;
+}
+  
+.my-subline{
+    position:absolute;
+    background:#6c757d;
+    height:15px; 
+}
+
+.inc{
+  animation: increase 2s infinite;
+}
+
+.dec{
+  animation: decrease 2s 0.5s infinite;
+}
+  
+@keyframes increase {
+   from { left: -5%; width: 5%; }
+   to { left: 130%; width: 100%;}
+}
+  
+@keyframes decrease {
+   from { left: -80%; width: 80%; }
+   to { left: 110%; width: 10%;}
+}
+
+.enclosure{
+    padding: 20px 0;
+}
