@@ -6,6 +6,10 @@ The purpose of this webapp is to inform the potential clients of the app about t
 
 The app has a mobile first approach. It is designed as a progressive web app (pwa) to still be funcional offline or in cases when the internet connection is poor.
 
+<br/>
+
+![](usage.gif)
+
 [Progress made so far can been seen here](https://sw-react-test.firebaseapp.com/)
 
 ## Template
