@@ -12,7 +12,7 @@
     "i18next": "^19.4.5",
     "leaflet": "^1.6.0",
     "leaflet-routing-machine": "^3.2.12",
-    "node-sass": "^4.13.1",
+    "node-sass": "^9.0.0",
     "perfect-scrollbar": "1.4.0",
     "prop-types": "^15.6.2",
     "react": "^16.13.1",
